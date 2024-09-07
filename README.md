@@ -2,7 +2,7 @@
 
 ### Descrição
 
-Esta aplicação web interativa foi desenvolvida para auxiliar estudantes a praticarem diferentes conceitos matemáticos de forma divertida e eficaz. Ela oferece exercícios personalizados em diversos temas, como equações, probabilidade, geometria e outros. A idéia e expandir o banco de dados, com mais temas e mais questões!
+Esta aplicação web interativa foi desenvolvida para auxiliar estudantes a praticarem diferentes conceitos matemáticos de forma divertida e eficaz. Ela oferece exercícios personalizados em diversos temas, como equações, probabilidade, geometria e outros. A ideia é expandir o banco de dados, com mais temas e mais questões!
 
 ### Funcionalidades Principais
 

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Exercícios</title>
+</head>
+<body onload="exibirExercicio()">
+    <div class="enunciado" id="enunciado"></div>
+    <div class="alternativas">
+    <button onclick="checar(0)" class="alternativa" id="alternativa0"></button>
+    <button onclick="checar(1)" class="alternativa" id="alternativa1"></button>
+    <button onclick="checar(2)" class="alternativa" id="alternativa2"></button>
+    <button onclick="checar(3)" class="alternativa" id="alternativa3"></button>
+    </div>
+    <div class="explicacao" id="explicacao"></div>
+    <div class="resposta" id="respostaid"></div>
+    <button onclick="reload()" class="proxima">Próxima Questão</button>
+    <button onclick="inicio()" class="index">Escolher outro tema</button>
+    <script src="app.js"></script>
+    <script src="data.js"></script>
+</body>
+<footer>
+    <p>Exercícios gerados pelo Google Gemini</p>
+</footer>
+</html>

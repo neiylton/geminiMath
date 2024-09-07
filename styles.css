@@ -1,0 +1,148 @@
+body {
+  background-color: rgb(6, 26, 26);
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  gap: 20px;
+}
+
+button:active {
+  box-shadow: inset 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 140px;
+}
+
+select {
+  width: 300px;
+  padding: 15px;
+  border: none;
+  border-bottom: 2px solid #020911;
+  border-radius: 4px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  color: #333;
+  background-color: #fff;
+  flex-grow: 1; 
+  display: flexbox;
+}
+
+footer {
+  background-color: rgb(4, 17, 17); /* Cor de fundo do rodapé */
+  color: white; /* Cor da fonte */
+  text-align: center;
+  padding: 5px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.selecao  {
+  display: flex;
+  align-items: center;
+  gap: 20px
+}
+
+.sugestoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.tema {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 220px;
+  cursor: pointer;
+}
+
+.tema h3  {
+  font-weight: bold;
+}
+
+.tema p {
+  text-align: center;
+}
+
+.tema:hover {
+  background-color: #555;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.enunciado  {
+  font-size: 32px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+  margin-top: 100px;
+}
+
+.explicacao {
+  margin-top: 8px;
+}
+
+.alternativas {
+  margin-top: 100px;
+}
+
+.alternativas button {
+  background-color: #13a888;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  cursor: pointer;
+  gap: 40px;
+}
+
+.alternativas button:hover {
+  background-color: #095041;
+}
+
+.proxima {
+  display: block;
+  margin-top: 100px;
+  padding: 16px;
+  width: 100%;
+}
+
+.index  {
+  background-color: #095031;
+  display: block;
+  padding: 16px;
+  width: 100%;
+}
+
+.index:hover  {
+  background-color: #052e1c;
+}

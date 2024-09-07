@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pratique Matemática!</title>
+</head>
+<body>
+    <header>
+        <h1>Pratique Matemática!</h1>
+    </header>
+    <main>
+        <div class="selecao">
+        <select id="tema" name="Selecione um tema para praticar">
+            <option value="" disabled selected>Escolha um assunto</option>
+            <option value="equacoes">Equações do primeiro grau</option>
+            <option value="media">Média, mediana e moda</option>
+            <option value="potencias">Potências e Raízes</option>
+            <option value="probabilidade">Probabilidade</option>
+            <option value="regradetres">Regra de três</option>
+            <option value="transformacoes">Transformações Geométricas</option>
+        </select>
+        <button onclick="praticar(tema.value)">Praticar</button>
+        </div>
+        <section class="sugestoes">
+            <button class="tema" onclick="praticar('potencias')">
+                <h3>Potências e Raízes</h3>
+                <p>Aprenda a calcular números tais como 11³ ou √121.</p>
+            </button>
+            <button class="tema" onclick="praticar('equacoes')">
+                <h3>Equações do primeiro grau</h3>
+                <p>Aprenda a ler regras de associação entre entrada e saída de grau 1, geralmente chamadas de f(x).</p>
+            </button>
+            <button class="tema" onclick="praticar('transformacoes')">
+                <h3>Transformações Geométricas</h3>
+                <p>Aprenda a utilizar ferramentas nos permitem mover e mudar as formas geométricas. Podemos deslizar, girar ou espelhar as formas.</p>
+            </button>
+            <button class="tema" onclick="praticar('probabilidade')">
+                <h3>Probabilidade</h3>
+                <p>Aprenda a calcular as chances de algo acontecer. É como jogar um dado e tentar adivinhar qual número vai sair.</p>
+            </button>
+        </section>
+    </main>
+    <script src="app.js"></script>
+    <script src="data.js"></script>
+</body>
+<footer>
+    <div class="container">
+        <p>Projeto da Imersão Dev com Google Gemini</p>
+    </div>
+</footer>
+</html>
